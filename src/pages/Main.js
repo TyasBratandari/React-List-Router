@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import About from "./About";
 import Gallery from "./Gallery"
 import Cart from "./Cart";
+import Pegawai from "./Pegawai";
 class Main extends React.Component {
     render() {
         return (
@@ -14,6 +15,7 @@ class Main extends React.Component {
                 <Route path="/contact" component={Contact} />
                 <Route path="/gallery" component={Gallery} />
                 <Route path="/cart" component={Cart} />
+                <Route path="/pegawai" component={Pegawai} />
             </Switch>
         )
     }

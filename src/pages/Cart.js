@@ -8,7 +8,7 @@ class Cart extends React.Component {
             user: "", // untuk menyimpan data nama user
             total: 0, // untuk menyimpan data total belanja
         }
-    }
+    }8
 
     initCart = () => {
         // memanggil data cart pada localStorage
